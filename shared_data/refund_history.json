@@ -1,0 +1,14 @@
+{
+  "CUST-1001": {
+    "refunds_last_12m": 0
+  },
+  "CUST-1002": {
+    "refunds_last_12m": 1
+  },
+  "CUST-1003": {
+    "refunds_last_12m": 0
+  },
+  "CUST-1004": {
+    "refunds_last_12m": 0
+  }
+}

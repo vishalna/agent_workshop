@@ -1,0 +1,47 @@
+[
+  {
+    "name": "low-value damaged + photo",
+    "amount_paid": 49,
+    "requested": 49,
+    "claim_type": "DAMAGED_ITEM",
+    "photo_supplied": true,
+    "refunds_last_12m": 0,
+    "expected": "AUTO_APPROVE"
+  },
+  {
+    "name": "damaged without photo",
+    "amount_paid": 49,
+    "requested": 49,
+    "claim_type": "DAMAGED_ITEM",
+    "photo_supplied": false,
+    "refunds_last_12m": 0,
+    "expected": "NEEDS_INFORMATION"
+  },
+  {
+    "name": "$129 case",
+    "amount_paid": 129,
+    "requested": 129,
+    "claim_type": "WRONG_ITEM",
+    "photo_supplied": false,
+    "refunds_last_12m": 1,
+    "expected": "HUMAN_REVIEW"
+  },
+  {
+    "name": "$210 case",
+    "amount_paid": 210,
+    "requested": 210,
+    "claim_type": "DAMAGED_ITEM",
+    "photo_supplied": true,
+    "refunds_last_12m": 0,
+    "expected": "HUMAN_REVIEW"
+  },
+  {
+    "name": "request exceeds order",
+    "amount_paid": 49,
+    "requested": 60,
+    "claim_type": "DAMAGED_ITEM",
+    "photo_supplied": true,
+    "refunds_last_12m": 0,
+    "expected": "BLOCKED"
+  }
+]

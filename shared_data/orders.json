@@ -1,0 +1,38 @@
+[
+  {
+    "order_id": "ORD-48213",
+    "customer_id": "CUST-1001",
+    "amount_paid": 49,
+    "status": "delivered",
+    "days_since_delivery": 6,
+    "item": "Glass jug",
+    "carrier_status": "delivered_front_door"
+  },
+  {
+    "order_id": "ORD-48214",
+    "customer_id": "CUST-1002",
+    "amount_paid": 129,
+    "status": "delivered",
+    "days_since_delivery": 8,
+    "item": "Headphones",
+    "carrier_status": "delivered_front_door"
+  },
+  {
+    "order_id": "ORD-48215",
+    "customer_id": "CUST-1003",
+    "amount_paid": 210,
+    "status": "delivered",
+    "days_since_delivery": 4,
+    "item": "Chair",
+    "carrier_status": "delivered_reception"
+  },
+  {
+    "order_id": "ORD-48216",
+    "customer_id": "CUST-1004",
+    "amount_paid": 35,
+    "status": "in_transit",
+    "days_since_delivery": null,
+    "item": "T-shirt",
+    "carrier_status": "carrier_confirmed_lost"
+  }
+]
